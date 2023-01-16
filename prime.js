@@ -1,0 +1,15 @@
+function checkPrime(number){
+
+let factors=0;
+for (let i=0;i<=number;i++){
+if(number%i==0){
+factors++;
+}
+}
+if (factors==2){
+console.log(prime)
+}else{
+console.log(not a prime)
+}
+
+}
